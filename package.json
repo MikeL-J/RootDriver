@@ -1,0 +1,26 @@
+{
+  "name": "root-drivers",
+  "version": "1.0.0",
+  "description": "JS implementation of the Root coding problem",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeL-J/RootDriver.git"
+  },
+  "keywords": [],
+  "author": "MikeL-J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeL-J/RootDriver/issues"
+  },
+  "homepage": "https://github.com/MikeL-J/RootDriver#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "jest": "^26.4.0",
+    "mocha": "^8.1.1"
+  }
+}

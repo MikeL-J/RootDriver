@@ -20,15 +20,15 @@ The trip business rules:
 I want to genarate a report to track driving history for people<br>
 So that, I can provide them with the appropriate policy<br>*
 
-### Usage
+## Usage
+To run the application you must have `node 10` or higher installed.
+
 Install npm packages `npm install`. Then run `npm test` to run tests.
 
-To run the application you must have `node` installed.
+Place your source file in the `data` folder of the application.
 
-Place the source file in the input folder of the application.
+## Sample command:
 
-Sample command:
+`node app --fileName input.txt`
 
-`node app'`
-
-Change the input file for different outcome.
+Change the source file for different outcome.
