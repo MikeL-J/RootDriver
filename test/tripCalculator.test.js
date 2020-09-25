@@ -28,23 +28,33 @@ describe('Trip Calculator', () => {
         ]
     })
 
-    it('seperates the drivers from the drivers', () => {
+    it('seperates the drivers records', () => {
         const actual = calculator.getDrivers(records)
         
         expect(actual.length).toEqual(3)
         expect(actual).toEqual(drivers)
     })
     
-    it('creates the objects for the trips', () => {
+    it('seperates the trip records', () => {
         const actual = calculator.getTrips(records)
         
         expect(actual.length).toEqual(3)
         expect(actual).toEqual(trips) 
     })
 
-    // it('creates the objects for the trips', () => {
+    it('creates the objects for the drivers', () => {
+        expected = [
+            {driver: 'Dan'},
+            {driver: 'Lauren'},
+            {driver: 'Kumi'},
+        ]
         
-    // })
+        const actual = calculator.createDriverObjects(drivers)
+        console.log(actual)
+
+        expect(actual.length).toEqual(3)
+        expect(actual).toEqual(expected)
+    })
 
     // it('calculates the route time', () => {
     //     expect(true).toEqual(true)
